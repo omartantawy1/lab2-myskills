@@ -1,0 +1,4 @@
+<div *ngFor="let progressBar of progressBars" class="progress">
+    <label class="progress-label" style="font-size: large;">{{ progressBar.label }}</label>
+    <div class="progress-bar progress-bar-info progress-bar-active" [style.width.%]="progressBar.value"></div>
+  </div>

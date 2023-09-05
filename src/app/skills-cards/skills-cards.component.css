@@ -1,0 +1,22 @@
+.background-c{
+
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.586);
+    color: white;
+    height: 700px;
+    }
+    
+    .rectangular-progress {
+        height: 20px; 
+        border-radius: 0; 
+      }
+      
+      .progress-bar {
+        border-radius: 0;
+        background-color: #C4AE78;
+       
+      }
+ .progress{
+    margin-top: 20px;
+    height: 30px;
+ }

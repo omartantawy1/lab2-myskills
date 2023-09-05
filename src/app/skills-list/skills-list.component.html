@@ -1,0 +1,28 @@
+<div class="background-c">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+      <br /><br /><br />
+      <h1 class="text-center">{{ skills }}</h1>
+      <p class="text-center">{{ skills_desc }}</p>
+    </div>
+  
+    <br /><br /><br />
+  
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-6">
+          <h3>{{ myfocus }}</h3>
+          <div class="d-flex align-items-center justify-content-center">
+            <hr class="my-3 bg-white" style="height: 4px; width: 40%;" />
+          </div>
+          <ul class="firs-arr">
+            <li *ngFor="let focus of mylist">{{ focus }}</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <app-skills-cards
+            [progressBars]="progressBars"
+          ></app-skills-cards>
+        </div>
+      </div>
+    </div>
+  </div>
